@@ -1,10 +1,12 @@
 <script setup lang="ts">
 import HelloWorld from "./components/HelloWorld.vue";
+import login from "./components/login.vue";
 </script>
 
 <template>
   <div>
     <HelloWorld msg="Vite + Vue" />
+    <login />
   </div>
 </template>
 
